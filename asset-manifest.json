@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7a369d0e.css",
+    "main.js": "/static/js/main.475f9f95.js",
+    "static/media/AOTM.png": "/static/media/AOTM.f622baf1ecf2b890e4e8.png",
+    "static/media/AOTM infographic_11.png": "/static/media/AOTM infographic_11.7ed322995db6f1dd2344.png",
+    "static/media/DedicatedExpertsCarousel.png": "/static/media/DedicatedExpertsCarousel.cb38f1f32b6ce447809a.png",
+    "static/media/Times-of-India-logo-b.png": "/static/media/Times-of-India-logo-b.a6a508c64a50617e343a.png",
+    "static/media/South china morning post.png": "/static/media/South china morning post.248bd4a7c109e40b73b6.png",
+    "static/media/the-hindu-logo.png": "/static/media/the-hindu-logo.711e404cd79ecc5d4547.png",
+    "static/media/gulfnews (1).png": "/static/media/gulfnews (1).a5cacb28911fad26ca32.png",
+    "static/media/Hindustan_Times_logo.png": "/static/media/Hindustan_Times_logo.08d918e61f18f28d2f47.png",
+    "static/media/ChicagoTribune.png": "/static/media/ChicagoTribune.0eaac640a29347ff53ab.png",
+    "static/media/img-2.png": "/static/media/img-2.5e0dcfabec9d7858fe37.png",
+    "static/media/Ninestars Logo-Big_Grey 5.png": "/static/media/Ninestars Logo-Big_Grey 5.0294cba985054191bb8e.png",
+    "static/media/National Library of Luxembourg.png": "/static/media/National Library of Luxembourg.c80063ffb19a5725d36e.png",
+    "index.html": "/index.html",
+    "main.7a369d0e.css.map": "/static/css/main.7a369d0e.css.map",
+    "main.475f9f95.js.map": "/static/js/main.475f9f95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a369d0e.css",
+    "static/js/main.475f9f95.js"
+  ]
+}
