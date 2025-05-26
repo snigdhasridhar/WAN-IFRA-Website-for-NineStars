@@ -1,0 +1,290 @@
+/* General Styles */
+body {
+  font-family: 'Inter', sans-serif;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.btn {
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 10px 24px;
+  transition: all 0.3s ease;
+}
+
+.btn-dark {
+  background-color: #222;
+}
+
+.btn-dark:hover {
+  background-color: #000;
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  box-shadow: none;
+  background-color: #fff;
+}
+
+.navbar-scrolled {
+  /* position: fixed; */
+  padding: 12px 0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+.nav-link {
+  color: #111 !important;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #000 !important;
+}
+
+
+.login-link {
+  color: #000 !important;
+  border: 1px solid #000;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.login-link:hover {
+  background-color: #000;
+  color: #fff !important;
+}
+
+
+/* Hero Section */
+.hero-section {
+  /* background-image: url('https://via.placeholder.com/1920x1080'); */
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  /* padding: 100px 0; */
+}
+
+/* .hero-section::before {
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+} */
+
+/* .hero-content {
+  position: relative;
+  z-index: 1;
+} */
+
+/* Brand Logos */
+.brand-logos {
+  background-color: #f9f9f9;
+}
+
+.logo-text {
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+/* Design Spaces */
+.design-spaces {
+  padding: 80px 0;
+}
+
+.check-circle {
+  width: 24px;
+  height: 24px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #222;
+  font-size: 14px;
+}
+
+.design-image-container {
+  position: relative;
+}
+
+.chat-bubble {
+  position: absolute;
+  background-color: white;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  max-width: 200px;
+}
+
+.chat-bubble .avatar {
+  margin-right: 8px;
+}
+
+.chat-bubble .message {
+  font-size: 12px;
+}
+
+.chat-bubble .name {
+  margin: 0;
+  font-weight: 600;
+}
+
+.chat-bubble-1 {
+  top: 20%;
+  right: -10%;
+}
+
+.chat-bubble-2 {
+  top: 50%;
+  left: -10%;
+}
+
+.chat-bubble-3 {
+  bottom: 20%;
+  right: -5%;
+}
+
+/* Dedicated Experts */
+.dedicated-experts {
+  padding: 80px 0;
+}
+
+/* What We Do */
+.what-we-do {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.service-icon {
+  color: #222;
+}
+
+/* Our Interiors */
+.our-interiors {
+  padding: 80px 0;
+}
+
+.interior-card {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonial */
+.testimonial {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+/* Call to Action */
+.call-to-action {
+  padding: 100px 0;
+}
+
+/* Footer */
+.footer {
+  background-color: #f9f9f9;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991.98px) {
+  .hero-section {
+    min-height: 500px;
+    text-align: center;
+  }
+
+  .chat-bubble {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-section {
+    min-height: 400px;
+  }
+
+  .design-spaces,
+  .dedicated-experts,
+  .what-we-do,
+  .our-interiors,
+  .testimonial,
+  .call-to-action {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar {
+    padding: 16px 0;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 12px;
+  }
+
+  .navbar-collapse {
+    background-color: #fff;
+    padding: 16px;
+  }
+}
+@media(min-width:786px){
+.hero-text {
+  padding: 0 !important; /* <-- will override Bootstrap */
+}
+}
+contact-form-section {
+  background-color: #ff5733 !important;
+  color: var(--white) !important;
+  padding: 5rem 5rem;
+  /* Increased padding left and right */
+  position: relative;
+  overflow: hidden;
+}
+.contact-form-container{
+  background-color: #ff5733 !important;
+
+
+}
+
+@media (max-width: 992px) {
+  contact-form-section,
+  .contact-info-section {
+    padding: 3rem 3rem;
+  }
+}
+@media (max-width: 768px){
+  .contact-form-section,
+  .contact-info-section {
+    padding: 1rem 1rem;
+    /* Adjusted padding for small screens */
+  }
+}
+
+
+
